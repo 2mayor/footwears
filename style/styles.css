@@ -5,7 +5,55 @@ color: blue;
 color: brown;
 font-size: 20px;
 }
- /*h2 {
-  background-color: blueviolet;
+ 
+  /* General body style */
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgb(66, 38, 38);
+  margin: 20px;
+  padding: 10px;
+}
 
- }*/
+/* Header styles */
+header {
+  background-color: gold;
+  color: blue;
+  text-align: center;
+  padding: 20px;
+}
+
+.tagline {
+  font-style: italic;
+  color: #ddd;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+h2 {
+  color:blue;
+  border-bottom: 2px solid #cccccc69;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.card {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-right: 30px;
+}
+/* Footer styles */
+footer {
+  background-color: #222222b9;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#footer-text {
+  font-size: 14px;
+  color: #bbb;
+}
